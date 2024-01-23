@@ -21,7 +21,7 @@
   - 如 `\label{sec:intro}`, `\label{ssec:cnn}`, 
   - `\label{fig:pipeline}`, `\label{tab:comp}`, `\label{eq:comp}`
 - 每个章节，可以考虑使用单独的`tex`文档。
-- 每个`\section`标题`前后`，增加几行间隔，方便看出整体结构。
+- 每个章节、图表及`\section`标题`前后`，增加几行间隔，方便看出整体结构。
 - 正文中，段落之间空一行，不要使用`\\`
 - 独行的公式，使用`equation`环境，不要使用`$$x$$`，且使用编号
 - 非必要（或允许），不要使用`\vspace`调整上下间距
