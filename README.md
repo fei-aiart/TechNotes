@@ -26,6 +26,7 @@
 - 每个章节、图表及`\section`标题`前后`，增加几行间隔，方便看出整体结构。
 - 正文中，段落之间空一行，不要使用`\\`
 - 独行的公式，使用`equation`环境，不要使用`$$x$$`，且使用编号
+- 公式里的大写字母（除变量外），用`\mathrm{X}`或 `\text{X}`，不然太丑了
 - 非必要（或允许），不要使用`\vspace`调整上下间距
 - 建议参考[《一份不太简短的 LATEX2ε 介绍》](lshort-zh-cn.pdf)
   - 源文件：[lshort-zh-cn@github](https://github.com/CTeX-org/lshort-zh-cn)
