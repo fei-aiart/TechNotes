@@ -2,7 +2,7 @@
 
 > 前提：**严格** 按照投稿期刊、会议或学位论文的 **模板**
 > 
-> 强烈建议使用Latex
+> 强烈建议使用Latex [@ Overleaf](https://www.overleaf.com/learn)
 
 
 
