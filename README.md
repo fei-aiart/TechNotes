@@ -21,6 +21,11 @@
 国际会议投稿 Deadline：[https://ccfddl.github.io/](https://ccfddl.github.io/)
 
 ----------
+**好工具，一定是简单的。**
+
+> 凡是感觉操作/写法过于复杂，都要反思自己的使用方法是不是有问题。
+
+----------
 
 ## Latex
 - 整体代码结构要**清晰明了**
@@ -33,7 +38,7 @@
 - 独行的**公式**，使用`equation`环境，不要使用`$$x$$`，且使用编号
 - 公式里的大写字母（除变量外），用`\mathrm{X}`或 `\text{X}`，不然太丑了
 - 非必要（或允许），不要使用`\vspace`调整上下间距
-- 不要使用 `scale` 类的参数，调整公式或表格大小
+- 不要使用 `scale`、`resize` 类的参数，调整公式或表格大小
 - 建议参考[《一份不太简短的 LATEX2ε 介绍》](lshort-zh-cn.pdf)
   - 源文件：[lshort-zh-cn@github](https://github.com/CTeX-org/lshort-zh-cn)
 
