@@ -6,7 +6,7 @@
 
 
 
-**宗旨：美观、层次清晰**
+**清晰 · 简洁 · 美观 · 悦耳**
 
 
 
@@ -96,7 +96,7 @@ Beautiful is better than ugly.
 
 ## 英文
 ```
-Simple is better than complex. 清晰·简洁·悦耳
+Simple is better than complex. 
 ```
 - 标题不需要 "Research on"
   - 标题单词首字母大写，参考一般英文论文标题。
