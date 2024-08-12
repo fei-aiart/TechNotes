@@ -65,11 +65,12 @@ Readability counts
 - 建议参考[《一份不太简短的 LATEX2ε 介绍》](lshort-zh-cn.pdf)
   - 源文件：[lshort-zh-cn@github](https://github.com/CTeX-org/lshort-zh-cn)
 
-## 表格
-- 建议使用 `\toprule`, `\midrule`, `\bottomrule` 作为横线，不要使用 `\hline`
-- 建议采用**三线表**，不用太多竖线或横线，不然太乱了
-- 表格中的量化指标等，**整数和小数位一般不超过4位**
-  - 比如：`0.1234`, `1.234`, `12.34`
+- **表格**
+  - 建议使用 `\toprule`, `\midrule`, `\bottomrule` 作为横线，不要使用 `\hline`
+  - 建议采用**三线表**，不用太多竖线或横线，不然太乱了
+  - 可以利用 `\footnotesize`(改字体) 或 `\tabcolsep=2pt`(调列间距) 来调整表格大小
+  - 表格中的量化指标等，**整数和小数位总计一般不超过4位** （不同指标总数一样即可）
+    - 比如：`0.1234`, `1.234`, `12.34`
  
 ### 画图
 ```
