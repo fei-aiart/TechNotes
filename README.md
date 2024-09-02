@@ -4,21 +4,17 @@
 > 
 > 强烈建议使用Latex [@ Overleaf](https://www.overleaf.com/learn)
 
-
-
 **清晰 · 简洁 · 美观 · 悦耳**
 
-
-
-
 ----------
-！超**简洁**的论文结构说明： 《[如何写论文_WNN](如何写论文_WNN.pdf)》
-
-！非常推荐：清华大学刘洋老师的 《[如何撰写学术论文(PPT)](如何撰写学术论文-刘洋（清华大学）-总结.pdf)》
-
-期刊/会议的选择，可以参考CCF推荐列表：[国际期刊/会议](中国计算机学会推荐国际学术会议和期刊目录-2022更名版.pdf)，[国内期刊](计算领域高质量科技期刊分级目录.pdf)
-
-国际会议投稿 Deadline：[https://ccfddl.github.io/](https://ccfddl.github.io/)
+- 超**简洁**的论文结构说明： 《[如何写论文_WNN](如何写论文_WNN.pdf)》
+- 清华大学刘洋老师的 《[如何撰写学术论文(PPT)](如何撰写学术论文-刘洋（清华大学）-总结.pdf)》
+- [GAMES003: 科研基本素养](https://pengsida.net/games003/)
+  - [Learning Research By 彭思达](https://pengsida.net/games003/)
+- 期刊/会议的选择，可以参考：
+  - CCF推荐列表：[国际期刊/会议](中国计算机学会推荐国际学术会议和期刊目录-2022更名版.pdf)，[国内期刊](计算领域高质量科技期刊分级目录.pdf)
+  - CAAI推荐列表：[PDF](中国人工智能学会推荐国际学术会议、国际国内期刊目录（完整版）.pdf)、[官网](https://www.caai.cn/index.php?s=/home/article/detail/id/4024.html)
+  - 国际会议投稿 Deadline：[https://ccfddl.github.io/](https://ccfddl.github.io/)
 
 ----------
 **好工具，一定是简单的。**
