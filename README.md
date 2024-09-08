@@ -47,27 +47,31 @@
 ```
 Readability counts
 ```
-- 整体代码结构要**清晰明了**
-- 每个 章节、图表、公式 都要有**简短**的`\label`
-  - 如 `\label{sec:intro}`, `\label{ssec:cnn}`, 
-  - `\label{fig:pipeline}`, `\label{tab:comp}`, `\label{eq:comp}`
-- 每个章节，可以考虑使用单独的`tex`文档。
-- 每个章节、图表及`\section`标题`前后`，增加几行间隔，方便看出整体结构。
-- 正文中，段落之间空一行，不要使用`\\`
-- 独行的**公式**，使用`equation`环境，不要使用`$$x$$`，且使用编号
-- 公式里的大写字母（除变量外），用`\mathrm{X}`或 `\text{X}`，不然太丑了
-- 非必要（或允许），不要使用`\vspace`调整上下间距
-- 建议参考[《一份不太简短的 LATEX2ε 介绍》](lshort-zh-cn.pdf)
-  - 源文件：[lshort-zh-cn@github](https://github.com/CTeX-org/lshort-zh-cn)
 
-- **表格**
+- **结构清晰**
+  - 每个 章节、图表、公式 都要有**简短**的`\label`
+    - 如 `\label{sec:intro}`, `\label{ssec:cnn}`, 
+    - `\label{fig:pipeline}`, `\label{tab:comp}`, `\label{eq:comp}`
+  - 每个章节，可以考虑使用单独的`tex`文档。
+  - 每个章节、图表及`\section`标题`前后`，增加几行间隔，方便看出整体结构。
+  - 正文中，段落之间空一行，不要使用`\\`
+  - 非必要（或允许），不要使用`\vspace`调整上下间距
+
+- **公式**
+  - 独行的公式，使用`equation`环境，不要使用`$$x$$`，且使用编号
+  - 公式里的大写字母（除变量外），用`\mathrm{X}`或 `\text{X}`，不然太丑了
+
+- **图表**
   - 建议使用 `\toprule`, `\midrule`, `\bottomrule` 作为横线，不要使用 `\hline`
   - 建议采用**三线表**，不用太多竖线或横线，不然太乱了
   - 可以利用 `\footnotesize`(改字体) 或 `\tabcolsep=2pt`(调列间距) 来调整表格大小
     - 不要使用 `scale`、`resize` 类的参数，调整公式或表格大小
   - 表格中的量化指标等，**整数和小数位总计一般不超过4位** （不同指标总数一样即可）
     - 比如：`0.1234`, `1.234`, `12.34`
+  - 插图的大小，一般使用`[width=1\linewidth]`设置
  
+- 建议参考[《一份不太简短的 LATEX2ε 介绍》](lshort-zh-cn.pdf) ([源文件@github](https://github.com/CTeX-org/lshort-zh-cn))
+    
 ### 画图
 ```
 Beautiful is better than ugly. 
