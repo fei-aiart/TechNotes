@@ -57,7 +57,6 @@ Readability counts
 - 独行的**公式**，使用`equation`环境，不要使用`$$x$$`，且使用编号
 - 公式里的大写字母（除变量外），用`\mathrm{X}`或 `\text{X}`，不然太丑了
 - 非必要（或允许），不要使用`\vspace`调整上下间距
-- 不要使用 `scale`、`resize` 类的参数，调整公式或表格大小
 - 建议参考[《一份不太简短的 LATEX2ε 介绍》](lshort-zh-cn.pdf)
   - 源文件：[lshort-zh-cn@github](https://github.com/CTeX-org/lshort-zh-cn)
 
@@ -65,6 +64,7 @@ Readability counts
   - 建议使用 `\toprule`, `\midrule`, `\bottomrule` 作为横线，不要使用 `\hline`
   - 建议采用**三线表**，不用太多竖线或横线，不然太乱了
   - 可以利用 `\footnotesize`(改字体) 或 `\tabcolsep=2pt`(调列间距) 来调整表格大小
+    - 不要使用 `scale`、`resize` 类的参数，调整公式或表格大小
   - 表格中的量化指标等，**整数和小数位总计一般不超过4位** （不同指标总数一样即可）
     - 比如：`0.1234`, `1.234`, `12.34`
  
