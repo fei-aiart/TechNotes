@@ -15,6 +15,7 @@
   - CCF推荐列表：[国际期刊/会议](中国计算机学会推荐国际学术会议和期刊目录-2022更名版.pdf)，[国内期刊](计算领域高质量科技期刊分级目录.pdf)
   - CAAI推荐列表：[PDF](中国人工智能学会推荐国际学术会议、国际国内期刊目录（完整版）.pdf)、[官网](https://www.caai.cn/index.php?s=/home/article/detail/id/4024.html)
   - 国际会议投稿 Deadline：[https://ccfddl.github.io/](https://ccfddl.github.io/)
+- 一份详细的[Paper-Writing-Tips](https://github.com/MLNLP-World/Paper-Writing-Tips)
 
 ----------
 **好工具，一定是简单的。**
