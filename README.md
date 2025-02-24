@@ -9,6 +9,7 @@
 ----------
 - 超**简洁**的论文结构说明： 《[如何写论文_WNN](如何写论文_WNN.pdf)》
 - 清华大学刘洋老师的 《[如何撰写学术论文(PPT)](如何撰写学术论文-刘洋（清华大学）-总结.pdf)》
+- [高质量读研及学位论文撰写](高质量读研及学位论文撰写-CCF.pdf)
 - [GAMES003: 科研基本素养](https://pengsida.net/games003/)
   - [Learning Research By 彭思达](https://pengsida.net/games003/)
 - 期刊/会议的选择，可以参考：
