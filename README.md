@@ -59,9 +59,11 @@ Readability counts
 
 - **公式**
   - 独行的公式，使用`equation`环境，不要使用`$$x$$`，且使用编号
+  - equation环境`\begin{}`和`\end{}`前后，不要有空行：空行会导致前后间距过大，或后续文本缩进（如where）
   - 公式里的大写字母（除变量外），用`\mathrm{X}`或 `\text{X}`，不然太丑了
 
 - **图表**
+  - 不要紧接着放在标题（如`\section`）后面，可以放在前面；环境`\begin{}`和`\end{}`前后空几行
   - 建议使用 `\toprule`, `\midrule`, `\bottomrule` 作为横线，不要使用 `\hline`
   - 建议采用**三线表**，不用太多竖线或横线，不然太乱了
   - 可以利用 `\footnotesize`(改字体) 或 `\tabcolsep=2pt`(调列间距) 来调整表格大小
