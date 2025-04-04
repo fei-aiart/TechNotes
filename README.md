@@ -98,7 +98,7 @@ Beautiful is better than ugly.
 - **对齐**
   - 各个模块（特别是同一等级的模块）之间，尽量考虑对齐关系（宽、高、边缘、居中等），使得更加美观
 - **在PPT中画图**，然后存为图片（如果是Word模板）或pdf（如果是latex）
-- 参考案例：[exemples-visual-plots](exemples-visual-plots/)（`folder ↑`） · [Vim@ICML](https://github.com/hustvl/Vim) · [Mamba-survey](https://arxiv.org/abs/2408.01129) · [MAGE@CVPR](https://github.com/LTH14/mage) · [SparK@ICLR](https://github.com/keyu-tian/SparK) · [AesMamba@MM](https://github.com/AiArt-Gao/AesMamba) 
+- 参考案例：[exemples-visual-plots](exemples-visual-plots/)（`folder ↑`） · [Vim@ICML](https://github.com/hustvl/Vim) · [Mamba-survey](https://arxiv.org/abs/2408.01129) · [MAGE@CVPR](https://github.com/LTH14/mage) · [SparK@ICLR](https://github.com/keyu-tian/SparK) 
 > 不要从网上截图，涉及抄袭，而且打印不清晰
 > 
 > 中文论文：如果图中文字是英文，自己改为中文
