@@ -114,7 +114,7 @@ Beautiful is better than ugly.
 ```
 Simple is better than complex. 
 ```
-- 用LLM辅助检查拼写和语法错误。
+- 用DeepSeek、GPT等LLM辅助检查拼写和语法错误。
 - 句子、用词要**简单、直接**，不要长句子，不要各种从句。 **主谓宾** 就可以。
 - **标题（小标题）：** 单词首字母大写，参考一般英文论文标题。
 - 建议参考[《风格的要素》](EoS_4thEd.pdf)
