@@ -1,0 +1,139 @@
+# Vision is Logic ~~ · ~~ All is Logic
+
+> Prerequisite: **Strictly** follow the journal, conference, or thesis **template**
+>
+> Strongly recommend using LaTeX [@ Overleaf](https://www.overleaf.com/learn)
+
+----------
+- Super **concise** paper structure guide: 《 [How_to_Write_a_Paper_WNN](如何写论文_WNN.pdf) 》
+- Prof. Yang Liu (Tsinghua University)'s 《[How to Write Academic Papers (PPT)](如何撰写学术论文-刘洋（清华大学）-总结.pdf)》
+- [High-Quality Graduate Study and Thesis Writing](高质量读研及学位论文撰写-CCF.pdf)
+- [GAMES003: Essential Skills for Research](https://pengsida.net/games003/)
+  - [Learning Research By Sida Peng](https://pengsida.net/games003/)
+- For journal/conference selection, refer to:
+  - CCF recommended lists: [International Journals/Conferences](中国计算机学会推荐国际学术会议和期刊目录-2022更名版.pdf), [Domestic Journals](计算领域高质量科技期刊分级目录.pdf)
+  - CAAI recommended lists: [PDF](中国人工智能学会推荐国际学术会议、国际国内期刊目录（完整版）.pdf), [Official Website](https://www.caai.cn/index.php?s=/home/article/detail/id/4024.html)
+  - International conference submission deadlines: [https://ccfddl.github.io/](https://ccfddl.github.io/)
+- Detailed [Paper-Writing-Tips](https://github.com/MLNLP-World/Paper-Writing-Tips)
+
+----------
+
+**Good tools are inherently simple.**
+
+> If an operation/writing style feels overly complex, one should reflect on whether the method of use is problematic.
+
+**Clarity · Conciseness · Aesthetics · Pleasant to Read**
+
+**The Core Question: Does it match/Is it appropriate?**
+
+----------
+
+## Chapter Arrangement
+
+> This! This! This! --> 《[How to Write a Paper_WNN](如何写论文_WNN.pdf)》
+
+- Chapter/Section Titles: Be concise; avoid being too long.
+- Add **subheadings** to make the overall structure clearer.
+  - You can also use a short phrase as a heading at the beginning of a paragraph, in **bold**.
+  - The content under a single subheading should not exceed:
+    - One and a half pages (for Chinese theses, or English single-column templates with large spacing, e.g., ECCV).
+    - Half a column (for English double-column templates, e.g., CVPR).
+
+- References:
+  - Information must be complete: author names, conference/journal names, etc. Ensure format consistency (capitalization, abbreviations, etc.).
+  - Add a `space` before citations like `\cite{}` or `\ref{}`.
+
+- Paragraphs:
+  - **Recommended length: 10-15 lines. Avoid being too long (exceeding 1/3 of a page) or too short (less than 5 lines).**
+  - **Avoid large blank spaces except at the end of a chapter/section.**
+  - **If a chapter or paragraph is only a few lines long and spills onto the next page, try to condense it onto the previous page.**
+  - **The last line of a paragraph: should contain at least 5 characters.**
+
+- Argumentation should be **rigorous** and concise.
+  - Key concepts, mathematical symbols: their origin, usage, and meaning must be clear.
+  - Do not assume only you or a small circle of peers will understand. Reviewer selection is somewhat random.
+  - Continuously provide corresponding references at key points.
+  - **Arguments must be supported, evidenced by providing references, figures, tables, or formulas, not just text.**
+
+## LaTeX
+
+```
+Readability counts
+```
+
+- **Clear Structure**
+  - Every chapter, figure, table, and formula should have a **short** `\label`.
+    - E.g., `\label{sec:intro}`, `\label{ssec:cnn}`,
+    - `\label{fig:pipeline}`, `\label{tab:comp}`, `\label{eq:comp}`
+  - Consider using separate `.tex` files for each chapter.
+  - Add a few lines of spacing before and after each chapter, figure, table, and `\section` title to visualize the overall structure easily.
+  - In the main text, leave a blank line between paragraphs; do not use `\\`.
+  - Unless necessary (or permitted), avoid using `\vspace` to adjust vertical spacing.
+
+- **Formulas**
+  - For standalone equations, use the `equation` environment. Do not use `$$x$$`. Use numbering.
+  - Do not leave blank lines before `\begin{equation}` and after `\end{equation}`: this can cause excessive spacing or incorrect indentation of following text (e.g., "where").
+  - Uppercase letters in formulas (excluding variables) should use `\mathrm{X}` or `\text{X}`, otherwise they look bad.
+
+- **Figures and Tables**
+  - Do not place them immediately after a title (like `\section`). They can be placed before the title. Leave a few lines of space before `\begin{}` and after `\end{}`.
+  - It is recommended to use `\toprule`, `\midrule`, `\bottomrule` for horizontal lines in tables; avoid using `\hline`.
+  - It is recommended to use a **three-line table** format. Avoid too many vertical or horizontal lines, as it becomes messy.
+  - You can use `\footnotesize` (to change font size) or `\tabcolsep=2pt` (to adjust column spacing) to adjust table size.
+    - Do not use parameters like `\resizebox` to resize formulas or tables.
+  - Quantitative indicators in tables: **The total number of integer and decimal digits generally should not exceed 4** (keep consistent across different metrics).
+    - E.g.: `0.1234`, `1.234`, `12.34`
+  - For figure size, generally use `[width=1\linewidth]`.
+
+- It is recommended to refer to 《[A not so short introduction to LATEX2ε](lshort-zh-cn.pdf)》 ([source@github](https://github.com/CTeX-org/lshort-zh-cn))
+
+
+### Drawing Figures
+
+```
+Beautiful is better than ugly. 
+```
+- **Visual Elements Reflect Logical Relationships**: One should basically understand the paper's method (framework, structure, innovations) just by looking at the figures.
+- **Color Scheme**
+  - Use no more than 4 colors, plus black at most.
+  - Colors should not be too bright/glaring. The default colors in PowerPoint are good (the matrix with gradients).
+  - The same module should use the same color palette; you can use shades to distinguish sub-modules.
+  - For theses: Figures should avoid large areas of background fill color, as it may look bad when printed.
+- **Size/Color: Does it match?**
+  - The **size and color** of a module should match its **importance** and the **amount of information** it conveys.
+  > Therefore, arrows should not be too long or colorful; rounded rectangle corners should not be too large.
+- Text in figures: **Use the same font size; do not use bold**. Keep it similar to the main text size.
+  - Unless it's the name of a major module, which can be bold or slightly larger.
+  - Explanatory text can be slightly smaller or lighter in color.
+- **Alignment**
+  - Strive for alignment (width, height, edges, centering, etc.) between modules, especially those at the same level, for better aesthetics.
+- **Draw figures in PowerPoint**, then save as an image (for Word templates) or PDF (for LaTeX).
+- Reference cases: [examples-visual-plots](exemples-visual-plots/)（`folder ↑`） · [**DINOv3**](https://arxiv.org/pdf/2508.10104) · [Vim@ICML](https://github.com/hustvl/Vim) · [Mamba-survey](https://arxiv.org/abs/2408.01129) · [MAGE@CVPR](https://github.com/LTH14/mage) · [SparK@ICLR](https://github.com/keyu-tian/SparK) · [InternVL](https://internvl.github.io/)
+> Do not use screenshots from the web, as it may involve plagiarism, and printing quality is poor.
+>
+> For Chinese papers: If text in the figure is in English, change it to Chinese yourself.
+
+## English
+```
+Simple is better than complex. 
+```
+- Use LLMs like DeepSeek, GPT, etc., to assist in checking for spelling and grammatical errors.
+- Sentences and word choice should be **simple and direct**. Avoid long sentences and complex clauses. **Subject-verb-object** structure is sufficient.
+- **Titles (Subtitles):** Capitalize the first letter of each word, following common practice for English paper titles.
+> - Recommended reading: 《[The Elements of Style](EoS_4thEd.pdf)》
+
+- English abbreviations: On **first appearance**, use the format: `Chinese Full Name (English Full Name, Abbreviation)`,
+  - E.g., `人脸识别(Face Recognition, FR)`
+  - Use half-width commas and parentheses here.
+
+- Expression: Refer to published papers, especially those on the same topic. Do not "invent" your own.
+
+- Prefer simple words:
+  - Look up the **English definition** of any word in a dictionary like Youdao to understand its original usage and meaning.
+  - Chinese definitions are less reliable for this purpose, as they can be easily confused.
+
+----------
+[Some suggestions for Word](TechNotesWord.md)
+> Office is, of course, a good tool, but many people don't know how to use it properly, hence the suggestion: *avoid using it if possible*  :(
+----------
+
