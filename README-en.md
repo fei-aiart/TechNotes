@@ -3,9 +3,11 @@
 > Prerequisite: **Strictly** follow the journal, conference, or thesis **template**
 >
 > Strongly recommend using LaTeX [@ Overleaf](https://www.overleaf.com/learn)
+>
+> [Chinese version](README.md)
 
 ----------
-- Super **concise** paper structure guide: 《 [How_to_Write_a_Paper_WNN](如何写论文_WNN.pdf) 》
+- Super **concise** paper structure guide: 《 [How to Write a Paper_WNN](如何写论文_WNN.pdf) 》
 - Prof. Yang Liu (Tsinghua University)'s 《[How to Write Academic Papers (PPT)](如何撰写学术论文-刘洋（清华大学）-总结.pdf)》
 - [High-Quality Graduate Study and Thesis Writing](高质量读研及学位论文撰写-CCF.pdf)
 - [GAMES003: Essential Skills for Research](https://pengsida.net/games003/)
