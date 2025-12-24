@@ -3,6 +3,8 @@
 > 前提：**严格** 按照投稿期刊、会议或学位论文的 **模板**
 > 
 > 强烈建议使用Latex [@ Overleaf](https://www.overleaf.com/learn)
+>
+> [English version](README-en.md)
 
 ----------
 - 超**简洁**的论文结构说明： 《[如何写论文_WNN](如何写论文_WNN.pdf)》
