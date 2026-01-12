@@ -93,6 +93,7 @@ Readability counts
     - 不要使用 `\resizebox` 类的参数，调整公式或表格大小
   - 表格中的量化指标等，**整数和小数位总计一般不超过4位** （不同指标总数一样即可）
     - 比如：`0.1234`, `1.234`, `12.34`
+    - 同一个指标，小数点位数一样，方便对比；模型大小等，进行对比时，考虑右对齐，方便直观看出大小。
   - 插图的大小，一般使用`[width=1\linewidth]`设置
  
 - 建议参考[《一份不太简短的 LATEX2ε 介绍》](lshort-zh-cn.pdf) ([源文件@github](https://github.com/CTeX-org/lshort-zh-cn))
