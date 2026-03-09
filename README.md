@@ -117,6 +117,7 @@ Beautiful is better than ugly.
 - **对齐**
   - 各个模块（特别是同一等级的模块）之间，尽量考虑对齐关系（宽、高、边缘、居中等），使得更加美观
 - **在PPT中画图**，然后存为图片（如果是Word模板）或pdf（如果是latex）
+- 小图标 icons 资源：[iconfont](https://www.iconfont.cn/)网站
 - 参考案例：[exemples-visual-plots](exemples-visual-plots/)（`folder ↑`） · [**DINOv3**](https://arxiv.org/pdf/2508.10104) · [Vim@ICML](https://github.com/hustvl/Vim) · [Mamba-survey](https://arxiv.org/abs/2408.01129) · [MAGE@CVPR](https://github.com/LTH14/mage) · [SparK@ICLR](https://github.com/keyu-tian/SparK) · [InternVL](https://internvl.github.io/)
 > 不要从网上截图，涉及抄袭，而且打印不清晰
 > 
